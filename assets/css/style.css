@@ -1324,6 +1324,16 @@ opacity: 0.9;
 
 /*fin de ducha subir**/
 
+/**/
+.h3-descubre{
+  font-size:15px;
+}
+.contenedor-h3-descubre{
+  columns: 200px 2;
+  column-gap: 30px;
+  padding: 20px;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1687,6 +1697,9 @@ opacity: 0.9;
     .contenedor-descuento-del-producto-hogar{
     display: none;
     
+    }
+    .h3-descubre{
+      font-size:10px;
     }
 
 }
