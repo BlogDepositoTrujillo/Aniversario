@@ -476,14 +476,40 @@ h6 {
   display: block;
 }
 
+
+/***carrusel inicio**/
+
+@media (max-width: 720px) {
+  .carrusel-1{
+    display: none;
+  }
+  .carrusel-2{
+    display: block;
+  }
+  .carrusel-inicio{
+    height: auto;
+  }
+  .carrusel-inicio-2{
+    height: auto;
+  }
+ 
+}
+@media (min-width: 720px) {
+  .carrusel-2{
+    display: none;
+  }
+ 
+ 
+}
+/*find carusela inicio**/
 /*--------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+--------------------------------------------------------------
 #hero {
   width: 100%;
   max-height: 50vh;
-  background: url("../img/fondo\ aniversario.jpg") top left;
-  background-size:cover;
+  background: url("../img/mesdelamujer.gif") top left;
+  background-size:contain;
   background-repeat: no-repeat;
   position:relative;
   display: flex;
@@ -595,7 +621,7 @@ h6 {
 }
 
 
-
+**/
 
 
 
@@ -992,7 +1018,7 @@ body {
 .modal-content-i-2{
   max-height: 500px;
   max-width: 500px;
-  display: flex;
+ 
 }
 
 .modal-content-i div span img {
