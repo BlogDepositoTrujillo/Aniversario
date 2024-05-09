@@ -115,13 +115,16 @@
   <!--SLIDER1-->
 
   <div id="carouselExampleIndicators" class="carousel slide carrusel-1" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-
+    <div class="indicadores-slider-principal">
+      <div class="carousel-indicators">
+        <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" style="border-radius: 50%; height: 15px; width: 15px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
     </div>
+    
+
     <div class="carousel-inner carrusel-inicio">
       <div class="carousel-item active" data-bs-interval="6000">
         <img src="assets/img/mesdelamujer.gif" class="d-block w-100 img-fluid" alt="imagen de ofertas en el mes de las madres en la empresa Deposito Trujillo">
@@ -136,14 +139,17 @@
         <img src="assets/img/paginaweb2.jpg" class="d-block w-100 img-fluid" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="container-fluid" style="width: 100%; display: flex;">
+      <button class="carousel-control-prev  boton-general-slider-principal" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next  boton-general-slider-principal" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
   </div>
   <!--FIN SLIDER1-->
 
