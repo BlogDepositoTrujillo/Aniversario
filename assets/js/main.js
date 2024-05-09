@@ -338,7 +338,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (!modalClosed) {
     setTimeout(function() {
       fadeInModal(modal);
-    }, 2000);
+    }, 60000);
   }
 
   closeButton.onclick = closeModal;
