@@ -363,7 +363,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 $(document).ready(function(){
   var index = 4; // Empezamos con el cuarto acordeón, ya que tenemos 3 inicialmente
-  var maxIndex = 8; // Límite de acordeones
+  var maxIndex = 4; // Límite de acordeones
 
   $(document).on('click', '.accordion-item:last-child .accordion-button', function() {
     if (index <= maxIndex) {
