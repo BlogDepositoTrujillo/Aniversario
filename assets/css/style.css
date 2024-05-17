@@ -1399,6 +1399,80 @@ opacity: 0.9;
 }
 
 /*finde subir**/
+
+
+
+
+
+
+/**CONTENEDOR FORMULARIO**/
+
+.seccion-formulario-atencion-alcliente{
+  background-color: #0056b3;
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor-principal-formulario{
+  background-color: #0056b3;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-image: url(../img/atencion-al-cliente.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  max-height: 500px;
+}
+
+.contenedor-imagen-formulario{
+  width:auto;
+}
+.contenedor-boton-formulario{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.modal-formulario{
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+.modal-formulario-2{
+  position: relative;
+  width: 100%;
+  height: 30%;
+  margin-top: 30px;
+  text-align: left;
+}
+.btn-modal-formulario{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid white;
+  color: #005194;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+.btn-modal-formulario:hover{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+/**CONTENEDOR FORMULARIO**/
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
